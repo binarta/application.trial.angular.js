@@ -3,7 +3,7 @@
   "main": [
     "./src/application.trial.js",
     "./src/application-trial-tpls-bootstrap3.js",
-    "./less/application.trial.less",
+    "./less/application-trial.less",
     "./metadata-system.json"
   ],
   "dependencies": {
