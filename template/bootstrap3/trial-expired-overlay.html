@@ -1,0 +1,31 @@
+<div id="trial-expired">
+    <div class="trial-expired-inner">
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                        <h1 i18n code="trial.expired.title" read-only ng-bind="::var"></h1>
+                        <div i18n code="trial.expired.body" read-only ng-bind-html="::var|trust">
+                        </div>
+                        <a ng-href="{{::binartaUpgradeUri}}" class="trial-cta" i18n code="trial.expired.cta.button" read-only ng-bind="::var"></a>
+                        <div class="binarta-logo">
+                            <img src="//cdn.binarta.com/image/logo/binarta-logo-vertical-white.png"
+                                 srcset="//cdn.binarta.com/image/logo/binarta-logo-vertical-white.png 1x, //cdn.binarta.com/image/logo/binarta-logo-vertical-white@2x.png 2x"
+                                 alt="Binarta logo">
+                            <a href="https://binarta.com" i18n code="trial.expired.binarta.link" read-only ng-bind="::var"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-inner">
+                <img src="//cdn.binarta.com/image/team/stefan-bubble.png"
+                     srcset="//cdn.binarta.com/image/team/stefan-bubble.png 1x, //cdn.binarta.com/image/team/stefan-bubble@2x.png 2x"
+                     alt="contact">
+                <div class="content" i18n code="trial.expired.footer" read-only ng-bind-html="::var|trust">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>

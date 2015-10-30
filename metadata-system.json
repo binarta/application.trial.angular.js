@@ -1,0 +1,32 @@
+{
+  "msgs":{
+    "nl":{
+      "trial.expired.title": "Bedankt om Binarta uit te proberen!",
+      "trial.expired.body": "<p>De gratis proefperiode van je Binarta website is verstreken. Abonneer je nu, en maak blijvend gebruik van je gepersonaliseerde website inclusief blog, SEO en tal van andere Binarta mogelijkheden.</p>",
+      "trial.expired.cta.button": "Abonneer u",
+      "trial.expired.binarta.link": "bouw jouw eigen site",
+      "trial.expired.footer": "<p>Wilt u Binarta verder blijven proberen, of heeft u een vraag?</p><p><a href=\"https://binarta.com/contact\">Neem contact op</a> met Stefan, hij helpt u graag verder.</p>"
+    },
+    "en":{
+      "trial.expired.title": "Thank you for trying Binarta!",
+      "trial.expired.body": "<p>The free trial of your Binarta website has expired. Upgrade now, and keep using your personalised website including blog, SEO and numerous other functionalities.</p>",
+      "trial.expired.cta.button": "Upgrade now",
+      "trial.expired.binarta.link": "create your own website",
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Stefan/a>, he will gladly help you with all your queries.</p>"
+    },
+    "fr":{
+      "trial.expired.title": "Thank you for trying Binarta!",
+      "trial.expired.body": "<p>The free trial of your Binarta website has expired. Upgrade now, and keep using your personalised website including blog, SEO and numerous other functionalities.</p>",
+      "trial.expired.cta.button": "Upgrade now",
+      "trial.expired.binarta.link": "create your own website",
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Stefan/a>, he will gladly help you with all your queries.</p>"
+    },
+    "de":{
+      "trial.expired.title": "Thank you for trying Binarta!",
+      "trial.expired.body": "<p>The free trial of your Binarta website has expired. Upgrade now, and keep using your personalised website including blog, SEO and numerous other functionalities.</p>",
+      "trial.expired.cta.button": "Upgrade now",
+      "trial.expired.binarta.link": "create your own website",
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Stefan/a>, he will gladly help you with all your queries.</p>"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+body.trial-expired {
+  overflow: hidden;
+  div[ng-view], ng-view {
+    overflow: hidden;
+  }
+}
+
+#trial-expired {
+  @footer-height: 280px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1034;
+
+  .trial-expired-inner {
+    overflow-y: auto;
+    height: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    background-image: linear-gradient(-180deg, rgba(80, 168, 163, 0.85) 0%, rgba(74, 170, 198, 0.85) 100%);
+
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .main {
+      height: 100%;
+      overflow-y: auto;
+      text-align: center;
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 50px 0 30px;
+      }
+
+      p {
+        text-align: left;
+      }
+
+      .trial-cta {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        border: 2px solid #ffffff;
+        border-radius: 6px;
+        background: none;
+        padding: 12px 30px;
+        margin: 40px auto;
+        transition: background ease 50ms, color ease 50ms;
+
+        &:hover {
+          background: #ffffff;
+          color: rgb(74, 74, 74);
+        }
+      }
+
+      .binarta-logo {
+        text-align: center;
+        margin: 50px;
+        img {
+          display: block;
+          margin: 0 auto 20px;
+          opacity: 0.9;
+        }
+      }
+    }
+
+    footer {
+      height: @footer-height;
+      padding: 30px;
+      background: rgba(74, 74, 74, 0.6);
+
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .trial-expired-inner {
+      footer {
+        img {
+          display: block;
+          margin: 0 auto 20px;
+        }
+      }
+    }
+  }
+
+  @media (min-height: 850px) {
+    .trial-expired-inner {
+      .main {
+        margin-bottom: -@footer-height;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    @footer-height: 160px;
+
+    @media (min-height: 850px) {
+      .trial-expired-inner {
+        .main {
+          margin-bottom: -@footer-height;
+        }
+      }
+    }
+
+    .trial-expired-inner {
+      .main {
+        padding-top: 50px;
+        padding-bottom: @footer-height;
+
+        h1 {
+          font-size: 28px;
+        }
+      }
+
+      footer {
+        height: @footer-height;
+
+        .footer-inner {
+          width: 600px;
+          margin: 0 auto;
+        }
+
+        .content {
+          margin-left: 90px;
+          padding: 10px;
+        }
+
+        img {
+          float: left;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .trial-expired-inner {
+      font-size: 14px;
+
+      .main {
+        padding-top: 250px;
+
+        h1 {
+          font-size: 36px;
+        }
+
+        .trial-cta {
+          margin-top: 80px;
+        }
+
+        .binarta-logo {
+          position: fixed;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
