@@ -1,0 +1,136 @@
+body.trial-expired {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#trial-expired {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1034;
+}
+#trial-expired .trial-expired-inner {
+  overflow-y: auto;
+  height: 100%;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  background-image: linear-gradient(-180deg, rgba(80, 168, 163, 0.85) 0%, rgba(74, 170, 198, 0.85) 100%);
+}
+#trial-expired .trial-expired-inner a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#trial-expired .trial-expired-inner a:hover {
+  text-decoration: none;
+}
+#trial-expired .trial-expired-inner .main {
+  height: 100%;
+  overflow-y: auto;
+  text-align: center;
+}
+#trial-expired .trial-expired-inner .main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 50px 0 30px;
+}
+#trial-expired .trial-expired-inner .main p {
+  text-align: left;
+}
+#trial-expired .trial-expired-inner .main .trial-cta {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: none;
+  padding: 12px 30px;
+  margin: 40px auto;
+  transition: background ease 50ms, color ease 50ms;
+}
+#trial-expired .trial-expired-inner .main .trial-cta:hover {
+  background: #ffffff;
+  color: #4a4a4a;
+}
+#trial-expired .trial-expired-inner .main .binarta-logo {
+  text-align: center;
+  margin: 50px;
+}
+#trial-expired .trial-expired-inner .main .binarta-logo img {
+  display: block;
+  margin: 0 auto 20px;
+  opacity: 0.9;
+}
+#trial-expired .trial-expired-inner footer {
+  height: 280px;
+  padding: 30px;
+  background: rgba(74, 74, 74, 0.6);
+}
+#trial-expired .trial-expired-inner footer img {
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  #trial-expired .trial-expired-inner footer img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
+@media (min-height: 850px) {
+  #trial-expired .trial-expired-inner .main {
+    margin-bottom: -280px;
+  }
+}
+@media (min-width: 768px) {
+  #trial-expired .trial-expired-inner .main {
+    padding-top: 50px;
+    padding-bottom: 160px;
+  }
+  #trial-expired .trial-expired-inner .main h1 {
+    font-size: 28px;
+  }
+  #trial-expired .trial-expired-inner footer {
+    height: 160px;
+  }
+  #trial-expired .trial-expired-inner footer .footer-inner {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #trial-expired .trial-expired-inner footer .content {
+    margin-left: 90px;
+    padding: 10px;
+  }
+  #trial-expired .trial-expired-inner footer img {
+    float: left;
+  }
+}
+@media (min-width: 768px) and (min-height: 850px) {
+  #trial-expired .trial-expired-inner .main {
+    margin-bottom: -160px;
+  }
+}
+@media (min-width: 992px) {
+  #trial-expired .trial-expired-inner {
+    font-size: 14px;
+  }
+  #trial-expired .trial-expired-inner .main {
+    padding-top: 250px;
+  }
+  #trial-expired .trial-expired-inner .main h1 {
+    font-size: 36px;
+  }
+  #trial-expired .trial-expired-inner .main .trial-cta {
+    margin-top: 80px;
+  }
+  #trial-expired .trial-expired-inner .main .binarta-logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}

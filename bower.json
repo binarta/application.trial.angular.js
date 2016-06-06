@@ -4,6 +4,7 @@
     "./src/application.trial.js",
     "./src/application-trial-tpls-bootstrap3.js",
     "./less/application-trial.less",
+    "./css/application-trial.css",
     "./metadata-system.json",
     "./sources.json"
   ],
