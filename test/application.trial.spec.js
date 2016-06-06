@@ -17,7 +17,7 @@ describe('application.trial', function () {
 
     describe('when trial is expired', function () {
         beforeEach(function () {
-            spyOn(application, 'isExpired').andReturn({
+            spyOn(application, 'isExpired').and.returnValue({
                 then: function (fn) {
                     fn(true);
                 }

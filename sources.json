@@ -1,0 +1,6 @@
+{
+  "default": {
+    "application.trial":"bower_components/binarta.application.trial.angular/src/application.trial.js",
+    "application.trial.templates":"bower_components/binarta.application.trial.angular/src/application-trial-tpls-bootstrap3.js"
+  }
+}
