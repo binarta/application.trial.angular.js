@@ -1,8 +1,6 @@
 var gulp = require('gulp'),
     minifyHtml = require('gulp-minify-html'),
-    templateCache = require('gulp-angular-templatecache'),
-    path = require('path'),
-    less = require('gulp-less');
+    templateCache = require('gulp-angular-templatecache');
 
 var minifyHtmlOpts = {
     empty: true,
@@ -19,10 +17,4 @@ gulp.task('bootstrap3', function () {
         .pipe(gulp.dest('src'));
 });
 
-gulp.task('compileLess', function () {
-    return gulp.src('less/*.less')
-        .pipe(less({paths: [path.join(__dirname, 'less', 'includes')]}))
-        .pipe(gulp.dest('css'));
-});
-
-gulp.task('default', ['bootstrap3', 'compileLess']);
+gulp.task('default', ['bootstrap3']);
