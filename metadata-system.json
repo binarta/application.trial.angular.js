@@ -12,21 +12,21 @@
       "trial.expired.body": "<p>The free trial of your Binarta website has expired. Upgrade now, and keep using your personalised website including blog, SEO and numerous other functionalities.</p>",
       "trial.expired.cta.button": "Upgrade now",
       "trial.expired.binarta.link": "create your own website",
-      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your queries.</p>"
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your enquiries.</p>"
     },
     "fr":{
       "trial.expired.title": "Merci d’avoir essayé Binarta!",
       "trial.expired.body": "<p>La période d’essai est malheureusement terminée. Pour continuer à profiter des fonctionnalités de votre site Binarta ; édition rapide, accès mobile, SEO, blog, vous devez vous abonner.</p>",
       "trial.expired.cta.button": "Choisir une formule d’abonnement",
       "trial.expired.binarta.link": "create your own website",
-      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your queries.</p>"
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your enquiries.</p>"
     },
     "de":{
       "trial.expired.title": "Thank you for trying Binarta!",
       "trial.expired.body": "<p>The free trial of your Binarta website has expired. Upgrade now, and keep using your personalised website including blog, SEO and numerous other functionalities.</p>",
       "trial.expired.cta.button": "Upgrade now",
       "trial.expired.binarta.link": "create your own website",
-      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your queries.</p>"
+      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your enquiries.</p>"
     }
   }
 }
