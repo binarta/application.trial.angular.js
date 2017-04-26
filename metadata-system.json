@@ -18,8 +18,8 @@
       "trial.expired.title": "Merci d’avoir essayé Binarta!",
       "trial.expired.body": "<p>La période d’essai ou l'abonnement est malheureusement terminée. Pour continuer à profiter des fonctionnalités de votre site Binarta ; édition rapide, accès mobile, SEO, blog, vous devez vous abonner.</p>",
       "trial.expired.cta.button": "Choisir une formule d’abonnement",
-      "trial.expired.binarta.link": "create your own website",
-      "trial.expired.footer": "<p>A question? An extension of your trial?</p><p><a href=\"https://binarta.com/contact\">Contact Jo</a>, he will gladly help you with all your queries.</p>"
+      "trial.expired.binarta.link": "créez votre propre site web",
+      "trial.expired.footer": "<p>Une question? Une extension de votre essai?</p><p><a href=\"https://binarta.com/contact\">Contactez Jo</a>, il sera heureux de vous aider à toutes vos questions.</p>"
     },
     "de":{
       "trial.expired.title": "Thank you for trying Binarta!",
